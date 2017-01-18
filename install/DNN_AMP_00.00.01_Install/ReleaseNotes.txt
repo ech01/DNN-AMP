@@ -1,0 +1,24 @@
+﻿<h3>DNN_AMP</h3>
+<p class="Contributor">
+	Risdall Marketing Group <br />
+	<a href="mailto:erik@risdall.com">erik@risdall.com</a><br />
+	<a href=http://www.risdall.com/>http://www.risdall.com/</a><br />
+	This extension was created using <a href="http://www.christoc.com">Christoc's</a> Module Development Templates for DNN.
+</p>
+<hr/>
+<div class="License">
+	<h3>About the DNN_AMP</h3>
+	<p class="Owner">
+		<b>Version CHANGEME</b><br /><br />
+	</p>
+	<p>Description about version.</p>
+	
+	<h4>Bug Fixes</h4>
+	<ul>
+			<li>List</li>
+			<li>of</li>
+			<li>bug</li>
+			<li>fixes</li>
+	</ul>
+	
+</div>

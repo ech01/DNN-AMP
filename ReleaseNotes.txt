@@ -1,0 +1,15 @@
+﻿<h3>DNN_AMP</h3>
+<p class="Contributor">
+	Risdall Marketing Group <br />
+	<a href="mailto:erik@risdall.com">erik@risdall.com</a><br />
+	<a href=http://www.risdall.com/>http://www.risdall.com/</a><br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the DNN_AMP</h3>
+	<p class="Owner">
+		<b>Version 0.001 BETA</b><br /><br />
+	</p>
+	
+	
+</div>
