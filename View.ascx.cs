@@ -91,17 +91,23 @@ namespace Risdall.Modules.DNN_AMP
                 //create page name based on current tab
                 string ampPageName = DotNetNuke.Entities.Tabs.TabController.CurrentPage.TabPath.Replace("//", "");
                 //path to amp page
-                string folderPath = this.PortalSettings.HomeDirectory + "AMP";
-                lblTest.Text = folderPath;
-                System.IO.Directory.CreateDirectory("~" + folderPath);
+                //string folderPath = this.PortalSettings.HomeDirectory + "AMP";
+               
 
-
-                string strFileName = HttpContext.Current.Server.MapPath(folderPath + "/" + ampPageName);
+                //System.IO.Directory.CreateDirectory("~" + folderPath);
+                string strFileName = HttpContext.Current.Server.MapPath("~/AMP/" + ampPageName);
                 strFileName = strFileName + "_" + DateTime.Now.ToString("yyyyMMdd") + ".html";
                 FileStream fs = new FileStream(strFileName, FileMode.Create);
                 StreamWriter writer = new StreamWriter(fs, Encoding.UTF8);
                 writer.Write(sbNewAMPPage.ToString());
                 writer.Close();
+
+                //string strFileName = HttpContext.Current.Server.MapPath("/portals/0/AMP/amptest");
+                //strFileName = strFileName + "_" + DateTime.Now.ToString("yyyyMMdd") + ".html";
+                //FileStream fs = new FileStream(strFileName, FileMode.Create);
+                //StreamWriter writer = new StreamWriter(fs, Encoding.UTF8);
+                //writer.Write(sbNewAMPPage.ToString());
+                //writer.Close();
 
             }
            
